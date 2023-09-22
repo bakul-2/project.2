@@ -1,0 +1,217 @@
+/* *cmmon css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1175px;
+    margin: auto;
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.aline-center{
+    align-items: center;
+
+}
+.justify-center{
+    justify-content: center;
+}
+.btn{
+    font-size: 14px;
+    font-weight: 800;
+    color: black;
+    background-color: #cfc91d;
+    display: inline-block;
+    padding: 18px 50px;
+    text-transform: uppercase
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+}
+.heading p{
+    font-size: 16px;
+    color: #7e8287;
+   
+}
+/* *cmmon css end */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* *navbar stard */
+nav{
+    background-color:#02918c;
+}
+
+nav .logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+   
+
+}
+nav .logo ul li{
+margin: 18px 66px;
+}
+nav .menu ul li{
+    display: inline-block;
+
+}
+nav .menu ul li a{ 
+   color: white;
+   font-size: 12px;
+   font-weight: 800;
+   text-transform: uppercase;
+   padding: 26px 25px;
+   display: inline-block;
+}
+/* *nabbar end */
+
+/* *BANNER SECTION START  */
+#banner{
+    background-image: url(../image/banner.jpg);
+    height: 728px;
+    background-size: cover;
+
+}
+#banner .container{
+    height: 100%;
+
+}
+#banner .row{
+height: 100%;
+}
+#banner .banner_cnt{
+    color: white;
+    text-align: center;
+}
+#banner .banner_cnt h4{
+    font-size: 30px;
+}
+#banner .banner_cnt h1{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 28px;
+    
+}
+#banner .banner_cnt p{ 
+    font-size: 18px;
+}
+#banner .banner_cnt img{
+    padding: 50px;
+}
+
+/* *BANNER SECTION END  */
+
+/* *ABOUT SECTION START */
+.about{
+    padding: 100px 0;
+}
+.about span{
+    font-size: 23px;
+    font-weight: 800;
+}
+.about .about_card{
+    margin: 45px 0;
+    text-align: center;
+    border-right: 1px solid;
+    padding: 40px 0;
+    color: #7e8287;
+}
+.about .about_card span{
+    font-size: 30px;
+    color:#02918c ;
+}
+.about .about_card h4{
+    font-size: 16px;
+    font-weight: 800;
+    margin: 25px 0;
+    color: #7e8287;
+   
+}
+.about .about_card p{
+    font-size: 11px;
+    color: #7e8287;
+    padding: 0 50px ;
+}
+.about_card:last-child{
+    border: none;
+}
+
+
+/* *ABOUT SECTION ENDS */
+
+/* *SERVICES SECTION  */
+#services{
+    background-image:url(../image/second-backround.jpg);
+    height: 740px;
+    background-size: cover;
+
+
+}
+#services .heading{
+    text-align: left;
+    width: 50%;
+    
+
+}
+#services .container{
+    padding-top:75px ;
+}
+#services .container .row{
+    width: 48%;
+
+    
+}
+#services .about_card{
+   
+    padding: 50px 50px 50px 0;
+    color:;
+}
+#services .about_card span{
+    color: #02918c;
+    font-size: 30px;
+}
+#services .about_card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    }
+#services .about_card p{
+    font-size: 11px;
+    color: #7e8287;
+}
+/* *SERVICES SECTION ENDS */
+
+
+/* *MY WORK SECTION */
+.work{
+    padding: 100px 0;
+}
+.work .work_img{
+    
+
+}
+/* *MY WORK SECTION ENDS */
